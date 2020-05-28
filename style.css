@@ -1,0 +1,171 @@
+* {
+    font-family:Calibri;
+}
+body {
+    background-image: url(index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.menu {
+    height: 500px;
+}
+
+#cv {
+    width: 90%;   
+    margin: 1vh auto;
+}
+
+#header {
+    padding: 15px;
+    border-bottom: 2px solid #cf8a05;
+    background-color: rgba(255, 255, 255, 0.76);
+    height: 20vh;
+    opacity: 0.9;
+}
+
+#sidemenu 
+{
+    float:left;
+    background-color: rgba(255, 255, 255, 0.76);   
+    width: 20%;
+    height:65vh;
+     
+}
+
+    #sidemenu aside {
+        font-size:small;
+        text-align:right;
+        padding-top:75px;
+        padding-right:5px;
+        vertical-align:baseline;
+        color:gray;
+    }
+
+#sidemenu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    opacity: 0.9;
+   
+}
+
+.menulist a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+.menulistselected a {
+    display: block;
+    background-color: #cf8a05;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.mainArea {
+    border-bottom: 2px solid #cf8a05;
+    background: #ededed;
+    height: 350px;
+}
+
+#name h1 {
+    font-size: 2.5em;
+    font-weight: 700;    
+    margin-bottom: -6px;
+    margin: 0;
+    padding: 0;
+}
+
+#name h2 {
+    font-size: 2em;
+    margin-left: 2px;    
+    margin: 0;
+    padding: 0;
+}
+
+#mainArea {
+    padding: 0 40px;
+}
+
+#displaypic {
+    width: 8.5%;
+    float: left;
+    margin-right: 30px;
+}
+
+#displaypic img {
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#name {
+    float: left;
+}
+
+#contactdetails {
+    float: right;
+}
+
+#contactdetails ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+
+#contactdetails ul li {
+    margin-bottom: 3px;
+    color: #444;
+}
+
+#details {
+    background-color: rgba(255, 255, 255, 0.76);
+    float: left;    
+    margin:1vh .5% 1vh .5%;
+    width: 79%;
+    height: 63vh;
+}
+    #details table {
+          padding: 0 0 10px 40px;
+    }
+    #details table td{
+   border:1px solid black;
+}
+       #details table th{
+   border:1px solid black;
+}
+
+#details p{
+    padding: 0 0 10px 10px;
+}
+
+#details h3{
+    padding: 0 0 10px 10px;
+    color:#cf8a05; 
+}
+
+#footer {
+    width: 100%;
+    background-color: #cf8a05;
+    float: left;
+    padding: 3px;
+    color: white;
+    text-align: center;    
+}
